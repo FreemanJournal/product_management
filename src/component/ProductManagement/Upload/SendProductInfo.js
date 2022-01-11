@@ -68,7 +68,6 @@ export default function SendProductInfo({
             <fieldset className="input_secondary">
               <legend>Select Product:</legend>
               <select
-                id='"form-subscribe-Filter'
                 className="input_primary"
                 placeholder="name"
                 defaultValue={'DEFAULT'}
@@ -88,7 +87,6 @@ export default function SendProductInfo({
               <legend>Enter Quantity:</legend>
               <input
                 type="number"
-                id='"form-subscribe-Filter'
                 className="input_primary"
                 placeholder="Quantity"
                 name='productQuantity'
@@ -99,7 +97,6 @@ export default function SendProductInfo({
               <legend>Enter Unit Price:</legend>
               <input
                 type="number"
-                id='"form-subscribe-Filter'
                 className="input_primary"
                 placeholder="Unit Price"
                 name='productInputUnitPrice'
@@ -109,7 +106,6 @@ export default function SendProductInfo({
             <fieldset className="input_secondary">
               <legend>Enter Buying Unit:</legend>
               <select
-                id='"form-subscribe-Filter'
                 className="input_primary"
                 placeholder="name"
                 defaultValue={'DEFAULT'}
@@ -130,7 +126,6 @@ export default function SendProductInfo({
             <fieldset className="input_secondary">
               <legend>Enter Store Unit:</legend>
               <select
-                id='"form-subscribe-Filter'
                 className="input_primary"
                 placeholder="name"
                 defaultValue={'DEFAULT'}
